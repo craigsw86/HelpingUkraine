@@ -1,0 +1,151 @@
+body {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    color: gold;
+    font-family: "Roboto", cursive;
+    text-shadow: 0 0 3px blue;
+    text-align: center;
+}
+
+header {
+    height: 30%;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-image: url("https://www.goodfreephotos.com/albums/ukraine/other-ukraine/flag-of-ukraine.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+main {
+    height: 70%;
+    width: 100%;
+    padding: 10px;
+    background: lightgray;
+    border: 2px solid black;
+}
+
+footer {
+    height: 10vh;
+    padding: 10px;
+    text-align: center;
+    background: gray;
+    color: black;
+    font-size: 12px;
+    border: 2px solid black;
+    bottom: 0;
+}
+
+.flag {
+    min-height: 25vh;
+    width: 100%;
+}
+
+.flagStripe {
+    height: 50%;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    padding: 2rem 0;
+}
+
+.bg-blue {
+ background-color: rgb(17,17,255);
+}
+
+.bg-gold {
+    background-color: gold;
+}
+
+.grid-container {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 4rem;
+    padding: 4rem 2rem;
+    background-color: white;
+}
+
+.grid-item {
+    width: clamp(0, 30rem, 100%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1.5rem;
+    font-size: 1.75rem;
+    text-align: center;
+    box-shadow: 0 5px .5em .2em #0002;
+    border-radius: .2em;
+    font-weight: 900;
+}
+
+.griditemMedical {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.griditemMedical:hover .griditemMedical-text {
+    visibility: visible;
+    position: absolute;
+}
+
+.griditemFood {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.griditemFood:hover .griditemFood-text {
+    visibility: visible;
+    position: absolute;
+}
+
+.form-container {
+    display: grid;
+    place-content: center;
+    margin-bottom: 4rem;
+}
+
+.form {
+    width: clamp(0rem, 100%, 50rem);
+    /* box-shadow: 0 5px .5em .2em #0002; */
+    border: 1px solid #0004;
+    border-radius: .2em;
+    padding: 1rem;
+}
+
+.form-group {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+fieldset {
+    border: none;
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <header>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Helping Ukraine</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="style.css" />
+      </head>
+      <div class="flag">
+        <div class="flagStripe">
+        <h1
+          id="websiteTitle"
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap"
+          rel="stylesheet"
+        >
+          "Слава Україні!"
+        </h1>
+        </div>
+        <div class="flagStripe">
+        <p>
+          This is another great website for donating to Ukraine to help the war
+          effort! What would you be willing to donate to the cause?
+        </p>
+        </div>
+      </div>
+    </header>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item" class="griditemFood">Food
+        <span class="griditemFood"
+        >Do you have any food to donate? Please let us know!</span
+      >
+      </div>
+      <div class="grid-item griditemMedical">Medical Supplies</div>
+      <div class="grid-item griditemComputers">Computers & Electronics</div>
+      <div class="grid-item griditemClothing">Clothing</div>
+      <div class="grid-item griditemCars">Cars</div>
+      <div class="grid-item griditemOther">Other</div>
+      <div class="griditemFood">Food
+        <span class="griditemFood"
+          >Do you have any food to donate? Please let us know!</span
+        >
+      </div>
+    </div>
+    <div class="filloutForm">
+      <p>Please fill out this form with the required registration!</p>
+      <form method="post" action="mailto:craig.s.weinstein@gmail.com"></form>
+      <fieldset>
+        <label for="first-name"
+          >Enter your First Name:
+          <input id="first-name" name="first-name" type="text required"
+        /></label>
+        <label for="last-name">Enter your Last Name: <input id="last-name" name="last-name" type="text required"/></label>
+        <label for="email"
+          >Enter Your Email Address:
+          <input id="email" name="email" type="email" required
+        /></label>
+      </fieldset>
+      <fieldset>
+        <label for="referrer">How did you hear about us?</label>
+        <select id="referrer" name="referrer">
+          <option value="">(SELECT ONE)</option>
+          <option value="1">This Website</option>
+          <option value="2">Website Administrator</option>
+          <option value="3">News Outlets</option>
+          <option value="4">Other</option>
+        </select>
+        <label
+          id="description"
+          rows="3"
+          cols="30"
+          placeholder="I can donate..."
+        ></label>
+      </fieldset>
+    </div>
+  </body>
+  <footer>
+    <p>
+      If you have any questions, you can contact us
+      <a href="mailto:craig.s.weinstein@gmail.com">here</a> anytime.
+    </p>
+    <p>(C) 2022</p>
+  </footer>
+</html>
+<!-- NOTE: I don't know what else to do at the moment. -->
