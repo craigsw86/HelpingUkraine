@@ -89,40 +89,6 @@ footer {
     font-weight: 900;
 }
 
-.griditemMedical {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-}
-
-.griditemMedical:hover .griditemMedical-text {
-    visibility: visible;
-    position: absolute;
-}
-
-.griditemFood {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-}
-
-.griditemFood:hover .griditemFood-text {
-    visibility: visible;
-    position: absolute;
-}
-
 .form-container {
     display: grid;
     place-content: center;
@@ -148,4 +114,35 @@ fieldset {
     padding: 1rem;
     display: grid;
     gap: 1rem;
+}
+
+
+.tooltip {
+	position: relative; /* So we can position the tooltip-text with absolute */
+}
+
+.tooltip-text {
+	/* important */
+	position: absolute; /* so we can control its position */
+	visibility: hidden; /* hidden until .tooltip is hovered */
+
+	/* These values are important to make sure your tooltip is visible */
+	/* just make sure the tooltip-text initially lines up with the parent container */
+	top: 0;
+	left: 0;
+	width: 10rem;
+
+	/* Moves the tooltip-text container up 100% of its hight so it clears the parent container so it isn't covering it up */
+	transform: translateY(-100%);
+
+	/* not important at all */
+	padding: 1rem;
+	background-color: white;
+	border-radius: 0.5rem;
+}
+
+/* important */
+.tooltip:hover .tooltip-text {
+	/* when .tooltip is being hovered over, make .tooltip-text visible */
+	visibility: visible;
 }
