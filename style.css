@@ -54,7 +54,7 @@ footer {
 }
 
 .flag {
-    min-height: 25vh;
+    min-height: 20vh;
     width: 100%;
 }
 
@@ -123,24 +123,16 @@ fieldset {
 
 
 .tooltip {
-	position: relative; /* So we can position the tooltip-text with absolute */
+	position: relative;
 }
 
 .tooltip-text {
-	/* important */
 	position: absolute; /* so we can control its position */
 	visibility: hidden; /* hidden until .tooltip is hovered */
-
-	/* These values are important to make sure your tooltip is visible */
-	/* just make sure the tooltip-text initially lines up with the parent container */
 	top: 0;
 	left: 0;
 	width: 10rem;
-
-	/* Moves the tooltip-text container up 100% of its hight so it clears the parent container so it isn't covering it up */
 	transform: translateY(-100%);
-
-	/* not important at all */
 	padding: 1rem;
 	background-color: white;
 	border-radius: 0.5rem;
@@ -148,8 +140,6 @@ fieldset {
     font-size: 18px;
 }
 
-/* important */
 .tooltip:hover .tooltip-text {
-	/* when .tooltip is being hovered over, make .tooltip-text visible */
 	visibility: visible;
 }
