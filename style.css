@@ -21,7 +21,7 @@ h2 {
 }
 
 header {
-    height: 30%;
+    height: 20%;
     width: 100%;
     padding: 10px;
     text-align: center;
@@ -35,7 +35,7 @@ header {
 }
 
 main {
-    height: 70%;
+    height: 80%;
     width: 100%;
     padding: 10px;
     background: lightgray;
@@ -54,12 +54,12 @@ footer {
 }
 
 .flag {
-    min-height: 20vh;
+    min-height: 10vh;
     width: 100%;
 }
 
 .flagStripe {
-    height: 50%;
+    height: 25%;
     width: 100%;
     display: grid;
     place-content: center;
