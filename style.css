@@ -17,6 +17,7 @@ h1 {
 
 h2 {
     color: black;
+    font-family: "Brygada 1918";
     font-size: 24px;
 }
 
@@ -37,6 +38,7 @@ header {
     color: black;
     font-size: 30px;
     border: 2px solid black;
+    transition: 1s;
 }
 
 main {
@@ -147,6 +149,7 @@ fieldset {
 
 .tooltip:hover .tooltip-text {
 	visibility: visible;
+    background-color: yellow;
 }
 
 /* @media only screen (max-width: 768px) {
