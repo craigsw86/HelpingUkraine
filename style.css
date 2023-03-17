@@ -9,9 +9,9 @@ body {
 }
 
 h1 {
-    color: gold;
+    color: #ffd700;
     font-family: "Brygada 1918";
-    text-shadow: 0 0 3px blue;
+    text-shadow: 0 0 3px #0057b7;
     text-align: center;
 }
 
@@ -74,11 +74,11 @@ footer {
 }
 
 .bg-blue {
- background-color: rgb(17,17,255);
+ background-color: #0057b7;
 }
 
 .bg-gold {
-    background-color: gold;
+    background-color: #ffd700;
 }
 
 .grid-container {
@@ -159,7 +159,7 @@ fieldset {
 
 .tooltip:hover .tooltip-text-1 {
 	visibility: visible;
-    background-color: yellow;
+    background-color: #ffd700;
 }
 
 .tooltip-text-2 {
@@ -170,7 +170,7 @@ fieldset {
 	width: 10rem;
 	transform: translateY(-100%);
 	padding: 1rem;
-	background-color: blue;
+	background-color: #0057b7;
 	border-radius: 0.5rem;
     font-family: 'Brygada 1918';
     font-size: 18px;
