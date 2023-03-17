@@ -87,6 +87,7 @@ footer {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 4rem;
     padding: 4rem 2rem;
+    background-color: skyblue;
     /* background-image: url("/images/seamless-pattern-scandinavian-style-with-flowers-birds-butterflies-vector-illustration_529424-678.avif");
     background-repeat: repeat; */
 }
@@ -108,6 +109,7 @@ footer {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 4rem;
     padding: 4rem 2rem;
+    background-color: gold;
     /* background-image: url("/images/vector-illustration-ukrainian-folk-seamless-pattern-ornament-ethnic-ornament-border-element-traditional-ukrainian-belarusian-folk-art-knitted-embroidery-pattern-vyshyvanka_1217-281.avif");
     background-repeat: repeat; */
 }
@@ -155,6 +157,7 @@ fieldset {
 	border-radius: 0.5rem;
     font-family: 'Brygada 1918';
     font-size: 18px;
+    color: #0057b7;
 }
 
 .tooltip:hover .tooltip-text-1 {
@@ -174,11 +177,12 @@ fieldset {
 	border-radius: 0.5rem;
     font-family: 'Brygada 1918';
     font-size: 18px;
+    color: #ffd700;
 }
 
 .tooltip:hover .tooltip-text-2 {
 	visibility: visible;
-    background-color: white;
+    background-color: #0057b7;
 }
 
 /* @media only screen (max-width: 768px) {
