@@ -87,8 +87,8 @@ footer {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 4rem;
     padding: 4rem 2rem;
-    background-image: url("/images/seamless-pattern-scandinavian-style-with-flowers-birds-butterflies-vector-illustration_529424-678.avif");
-    background-repeat: repeat;
+    /* background-image: url("/images/seamless-pattern-scandinavian-style-with-flowers-birds-butterflies-vector-illustration_529424-678.avif");
+    background-repeat: repeat; */
 }
 
 .grid-item {
@@ -108,8 +108,8 @@ footer {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 4rem;
     padding: 4rem 2rem;
-    background-image: url("/images/vector-illustration-ukrainian-folk-seamless-pattern-ornament-ethnic-ornament-border-element-traditional-ukrainian-belarusian-folk-art-knitted-embroidery-pattern-vyshyvanka_1217-281.avif");
-    background-repeat: repeat;
+    /* background-image: url("/images/vector-illustration-ukrainian-folk-seamless-pattern-ornament-ethnic-ornament-border-element-traditional-ukrainian-belarusian-folk-art-knitted-embroidery-pattern-vyshyvanka_1217-281.avif");
+    background-repeat: repeat; */
 }
 
 .form-container {
