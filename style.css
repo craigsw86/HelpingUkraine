@@ -88,7 +88,11 @@ footer {
     gap: 4rem;
     padding: 4rem 2rem;
     background-image: url("https://img.freepik.com/free-vector/vector-illustration-ukrainian-folk-seamless-pattern-ornament-ethnic-ornament-border-element-traditional-ukrainian-belarusian-folk-art-knitted-embroidery-pattern-vyshyvanka_1217-279.jpg?w=1380&t=st=1679142075~exp=1679142675~hmac=6c5711ceee31b7fe313ab5f70077df98211a840d52168b6a0cc2501ea10ff059");
-    background-repeat: repeat;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    object-fit: cover;
 }
 
 .grid-item {
@@ -109,7 +113,11 @@ footer {
     gap: 4rem;
     padding: 4rem 2rem;
     background-image: url("https://img.freepik.com/free-vector/vector-illustration-ukrainian-folk-seamless-pattern-ornament-ethnic-ornament-border-element-traditional-ukrainian-belarusian-folk-art-knitted-embroidery-pattern-vyshyvanka_1217-281.jpg?w=1060&t=st=1679139751~exp=1679140351~hmac=b19dcaf07c5b04d4ceed17b77c13b013125f4434e0ea00d4c54c2aa94093bb8a");
-    background-repeat: repeat;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    object-fit: cover;
 }
 
 .form-container {
