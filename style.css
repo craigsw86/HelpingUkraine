@@ -50,7 +50,7 @@ main {
 }
 
 footer {
-    height: 10vh;
+    height: 15vh;
     padding: 10px;
     text-align: center;
     background: gray;
@@ -98,6 +98,7 @@ footer {
 .grid-item {
     width: clamp(0, 30rem, 100%);
     background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #0057b7;
     padding: 1.5rem;
     font-size: 1.75rem;
     text-align: center;
@@ -193,11 +194,25 @@ fieldset {
     width: 20rem;
 }
 
+.filloutForm {
+    background-color: skyblue;
+}
+
 .dropdown {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     max-width: 240px;
+}
+
+.button {
+    font-size: 24px;
+    font-family: 'Brygada 1918';
+    color: #ffd700;
+    background-color: #0057b7;
+    text-align: center;
+    border: 5px groove #ffd700;
+    padding: 16px 32px;
 }
 
 /* @media only screen (max-width: 768px) {
