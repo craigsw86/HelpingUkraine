@@ -163,6 +163,7 @@ fieldset {
 .tooltip:hover .tooltip-text-1 {
 	visibility: visible;
     background-color: #ffd700;
+    width: 20rem;
 }
 
 .tooltip-text-2 {
@@ -183,6 +184,7 @@ fieldset {
 .tooltip:hover .tooltip-text-2 {
 	visibility: visible;
     background-color: #0057b7;
+    width: 20rem;
 }
 
 /* @media only screen (max-width: 768px) {
